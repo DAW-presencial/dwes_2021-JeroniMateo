@@ -1,4 +1,4 @@
-<?php 
+<?php
 
 
 
@@ -6,6 +6,7 @@
 ?>
 
 <form action="">
-    <label>Nombre</label><input type="text" name="nombre" id="nombre">
-    <label>Telefono</label><input type="text" name="telefono" id="telefono">
+    <label>Nombre:<input type="text" name="nombre" /></label><br />
+    <label>Teléfono:<input type="number" name="telefono" /></label><br />
+    <input type="submit" name='submit' value="Ejecutar" /><br />
 </form>
