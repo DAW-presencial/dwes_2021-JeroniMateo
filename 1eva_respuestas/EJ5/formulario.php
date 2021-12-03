@@ -15,7 +15,7 @@
     <label>Apellidos</label> <input type="text" name="apellidos" id="apellidos" value=""> <br>
     <label>Fecha de nacimiento</label> <input type="date" name="nacimiento" id="nacimiento" value=""> <br>
     <label>Sube un fichero</label> <input type="file" name="file1" id="file1" placeholder="file1" value=""> <br>
-    <label>Sube un fichero</label> <input type="file" name="file1" id="file1" placeholder="file1" value=""> <br>
+    <label>Sube un fichero</label> <input type="file" name="file2" id="file2" placeholder="file2" value=""> <br>
     <input type="submit" name="submit" id="submit">
 
 
