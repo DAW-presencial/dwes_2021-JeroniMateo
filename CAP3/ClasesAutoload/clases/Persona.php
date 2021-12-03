@@ -1,22 +1,19 @@
 <?php
 
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Scripting/PHPClass.php to edit this template
- */
 
-/**
- * Description of Persona
- *
- * @author jeroni
- */
 class Persona {
-     private $nombre;
-     private $edad;
+     private $nombre = "Pepe";
+     private $edad= "30";
     
     
+     function __construct() {
+        echo "Instanciando Persona";
+    }
+
+
+
     //put your code here
     function cargarClase(){
-        echo   "Esto es una clase";
+        echo   "Soy una persona";
     }
 }

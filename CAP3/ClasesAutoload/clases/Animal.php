@@ -14,4 +14,17 @@ class Animal {
     //put your code here
      private $nombre;
      private $especie;
+
+
+
+     function __construct() {
+        echo "Instanciando Animal";
+    }
+
+
+
+    //put your code here
+    function cargarClase(){
+        echo   "Soy un Animal";
+    }
 }

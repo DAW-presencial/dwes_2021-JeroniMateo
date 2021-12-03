@@ -1,16 +1,18 @@
 <?php
 
-spl_autoload_register(function ($nombre_clase) {
-    include  'clases/' . "$nombre_clase" . ".php";
+spl_autoload_register(function ($persona) {
+    include  'clases/' . "$persona" . ".php";
+});
+
+spl_autoload_register(function ($animal){
+    include 'clases/' . "$animal" . ".php";
 });
 
 $obj  = new Persona();
 $obj2 = new Animal();
 $obj ->cargarClase();
 
-/*
-string(7) "IPrueba"
 
-Fatal error: Interface 'IPrueba' not found in ...
-*/
+
+
 ?>
