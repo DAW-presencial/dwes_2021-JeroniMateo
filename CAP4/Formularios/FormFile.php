@@ -10,7 +10,7 @@
     
 <form action="Files.php" method="post" enctype="multipart/form-data">
 
-    <input type="text">
+
 
     <label>Sube un fichero</label> <input type="file" name="file" id="file" placeholder="file">
     
