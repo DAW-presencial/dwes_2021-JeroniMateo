@@ -11,16 +11,15 @@
 <form action="Files.php" method="post" enctype="multipart/form-data">
 
 
-    <label>nombre</label> <input type="text" name="nombre" id="nombre"> <br>
-    <label>apellidos</label> <input type="text" name="apellidos" id="apellidos"> <br>
-    <label>Sube un fichero</label> <input type="file" name="file" id="file" placeholder="file"> <br>
-    <label>Sube un fichero</label> <input type="file" name="file" id="file" placeholder="file"> <br>
+    <label>Nombre</label> <input type="text" name="nombre" id="nombre"> <br>
+    <label>Apellidos</label> <input type="text" name="apellidos" id="apellidos" value=""> <br>
+    <label>Fecha de nacimiento</label> <input type="date" name="nacimiento" id="nacimiento" value=""> <br>
+    <label>Sube un fichero</label> <input type="file" name="file1" id="file1" placeholder="file1" value=""> <br>
+    <label>Sube un fichero</label> <input type="file" name="file1" id="file1" placeholder="file1" value=""> <br>
     <input type="submit" name="submit" id="enviar">
 
 
 </form>
-<?php
 
-?>
 </body>
 </html>
