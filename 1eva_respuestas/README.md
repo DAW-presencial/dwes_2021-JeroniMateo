@@ -8,7 +8,8 @@ b) los metodos magicos sobrescriben los atributos privados y protegidos, al real
 
 
 ## Ejericicio 5
-Ejericicio 5 finalizado correctamente , donde podemos estan separados en 2 
+Ejericicio 5 finalizado correctamente , donde podemos estan separados en 2 archivos, uno con el formulario y el 2o con todo el codigo
+Cuando ejecutemos salta el formulario y cuando ese formulario esta rellenado y pulsamos el boton salen los datos y en el caso de los files sale su nombre y sus bytes
 
 ## Servidor Remoto
 
