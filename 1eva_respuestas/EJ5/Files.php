@@ -10,7 +10,7 @@
     
 <?php
 
-
+//declaramos las variables por las cuales obtendremos e imprimiremos los datos introducidos en el formulario
 $nombre = $_POST['nombre'];
 $apellidos = $_POST['apellidos'];
 $fecha = $_POST['nacimiento'];
@@ -21,9 +21,11 @@ $file2n = $_FILES['file2']['name'];
 
 
 
-
+//si han pulsado el boton y se han subido ambos archivos entonces empezara a imrpmir todo
 if(isset($_POST["submit"]) && isset($_FILES['file1']) && isset($_FILES['file2'])) ?>
     <h1>Datos Enviados</h1>
+
+    //En el caso de que alguno de los campos este vacio lo impimirá en blanco, en caso contario, imprimira el dato introducido en input
     Nombre : <?php isset($nombre) ? print $nombre : ""; ?> <br>
     Apellidos : <?php isset($apellidos) ? print $apellidos : ""; ?> <br>
     Fecha Nacimiento : <?php isset($fecha) ? print $fecha : ""; ?> <br>
