@@ -16,7 +16,7 @@
     <label>Fecha de nacimiento</label> <input type="date" name="nacimiento" id="nacimiento" value=""> <br>
     <label>Sube un fichero</label> <input type="file" name="file1" id="file1" placeholder="file1" value=""> <br>
     <label>Sube un fichero</label> <input type="file" name="file1" id="file1" placeholder="file1" value=""> <br>
-    <input type="submit" name="submit" id="enviar">
+    <input type="submit" name="submit" id="submit">
 
 
 </form>
